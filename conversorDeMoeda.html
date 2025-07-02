@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moeda</title>
+    <link rel="stylesheet" href="conversorDeMoeda.css">
+</head>
+
+<body>
+    <img class="imggif" src="./assets/intercambio.gif" alt="">
+    <div class="prime">
+        <header>
+            <h1>&laquo;Dev$Conversor&raquo;</h1>
+        </header>
+        <div class="mainprincipal">
+
+            <main>
+                <label>
+                    Converte <b>de:</b><br>
+                    <select class="selectseccoin">
+                        <option value="real">R$ Real Brasileiro</option>
+                        <option value="dolar"> US$ Dolar Americano</option>
+                        <option value="euro"> &euro; Euro</option>
+                        <option value="bitcoin"> &#8383; Bitcoin</option>
+                        <option value="libra"> &pound; Libra</option>
+                    </select>
+                </label> <br>
+                <label>
+                    Converte <b>para:</b><br>
+                    <select class="selectcoin">
+                        <option value="real1">R$ Real Brasileiro</option>
+                        <option value="dolar1"> US$ Dolar Americano</option>
+                        <option value="euro1"> &euro; Euro</option>
+                        <option value="bitcoin1"> &#8383; Bitcoin</option>
+                        <option value="libra1"> &pound; Libra</option>
+                    </select>
+                </label>
+                <div> Valor: <br>
+                    <input class="currencyconvert" type="number" placeholder="R$ 10.000.000,00">
+                </div>
+                <button class="currencybutton"><b>CONVERTER</b></button>
+            </main>
+            <section class="resul">
+                <div class="divresul">
+                    <div>
+                        <img class="currencyimg" src="./assets/real.png" alt="">
+                        <p class="currecycoin">REAL</p>
+                        <p class="currencyvalue">R$ 0,00</p>
+                    </div>
+                    <img class="imgseta" src="./assets/seta-para-baixo.gif" alt="">
+                    <div>
+                        <img class="currencytoimg"  src="./assets/dolar.png" alt="">
+                        <p class="currecytocoin">DÓLAR</p>
+                        <p class="currecytovalue">US$ 0,00</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p>&copy;TH&alefsym;Dev</p>
+    </footer>
+    <script src="conversorDeMoeda.js"></script>
+</body>
+
+</html>
